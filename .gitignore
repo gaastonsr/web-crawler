@@ -1,3 +1,6 @@
+# Mac Finder file
+.DS_Store
+
 # distribution files
 dist
 
