@@ -1,0 +1,31 @@
+{
+  "name": "web-crawler",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o dist/index.js",
+    "deploy": "wt update --bundle-minify webcrawler dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaastonsr/web-crawler.git"
+  },
+  "author": "Gaston Sanchez <gaastonsr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaastonsr/web-crawler/issues"
+  },
+  "homepage": "https://github.com/gaastonsr/web-crawler#readme",
+  "dependencies": {
+    "htmlparser2": "^3.9.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.5.0",
+    "wt": "^1.1.1"
+  }
+}
